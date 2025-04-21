@@ -1,3 +1,9 @@
+It's really just laziness that brings the need for this extention, since being in public is so mandatory 
+but i just can not update my public appearence because i have to click some buttons to open up different social accounts
+so i made this, just one click and all social accounts will open up,
+Enjoy!
+
+
 just get this extension in your system, go to any browser (chrome/edge)
 🔧 Steps to Load an Unpacked Chrome Extension:
 1.Open Chrome/edge and go to:->  (chrome://extensions/) or (edge://extensions/)
