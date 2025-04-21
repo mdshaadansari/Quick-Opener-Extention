@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      input[type="text"] {
+      width: 65%;
+      padding: 6px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 12px;
+    }
+    button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 4px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+    body { font-family: sans-serif; padding: 10px; border-radius: 10px; 
+        
+        background-color: #eaebea;
+        width: 300px;
+    }
+   
+
+    input, button { margin: 5px 0; }
+    ul { list-style: none; padding: 0; }
+    li { display: flex; align-items: center; gap: 10px; margin: 5px 0; }
+    img { width: 16px; height: 16px; }
+    .delete-btn {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: #d11a2a;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 5px 0;
+}
+
+
+  </style>
+</head>
+<body>
+  <h4>Save Site</h4>
+  <input type="text" id="siteUrl" placeholder="Enter site URL">
+  <button id="saveBtn">Save</button>
+  <ul id="siteList"></ul>
+
+  <script src="popup.js"></script>
+</body>
+</html>
