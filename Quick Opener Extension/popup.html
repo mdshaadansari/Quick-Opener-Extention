@@ -54,15 +54,27 @@ li {
   margin: 5px 0;
 }
 
+.header-img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 40px; /* adjust size as needed */
+  height: 40px;
+}
 
   </style>
 </head>
+ 
 <body>
+  <!-- Image above the heading -->
+  <img src="icon.png" alt="Logo" class="header-img">
+<!--
   <h4>Save Site</h4>
+-->
   <input type="text" id="siteUrl" placeholder="Enter site URL">
   <button id="saveBtn">Save</button>
   <ul id="siteList"></ul>
 
   <script src="popup.js"></script>
 </body>
+
 </html>
